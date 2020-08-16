@@ -1,0 +1,143 @@
+html{
+    scroll-behavior: smooth;
+    font-family: 'Lucida Bright';
+}
+.shadow-m{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.banner{
+    margin-top: 80px;
+    
+}
+.banner-text{
+    margin-top: 150px;
+}
+.total{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.total h5{
+    display: inline-block;
+    font-size: 20px;
+    margin: 15px 0 20px 0;
+    color: #494e4e;
+}
+.main .confirmed{
+    color: #494e4e;
+}
+.main .recovered{
+    color: #55C983;
+}
+.main .deaths{
+    color: #EB4559;
+}
+.main .treatment{
+    color: #F7D167;
+}
+.main h6{
+    color: #585858;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.main p{
+    font-size: 12px;
+    color: #494e4e;
+    margin-bottom: 12px;
+}
+.main p a{
+    text-decoration: none;
+}
+.emoji{
+    font-size: 22px;
+}
+
+.about{
+    margin-bottom: 80px;
+}
+.about h4{
+    font-size: 25px;
+    border-bottom: 3px solid #EB4559;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.about img{
+    width: 348px;
+}
+.text-desc h5{
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.text-desc p{
+    font-size: 14px;
+}
+
+#data-cov h4{
+    font-size: 25px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #EB4559;
+}
+
+footer{
+    background-color: rgb(241, 241, 241);
+    margin-top: 50px;
+}
+
+.bi-heart-fill{
+    color: #EB4559;
+}
+
+.footer-copyright a{
+    color: #EB4559;
+    text-decoration: none;
+}
+
+@media all and (max-width: 1000px) { 
+    .banner img{
+        width: 400px;
+        margin-top: 30px;
+    }
+    .banner-text{
+        margin-top: 100px;
+    }
+    .about img{
+        margin-top: 50px;
+        width: 300px;
+    }
+    
+}
+@media all and (max-width: 767px) {
+    .banner img{
+        display: none;
+    }
+    .banner-text{
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 30px;
+    }
+    .total h1{
+        font-size: 40px;
+    }
+    .total h6{
+        margin-bottom: 30px;
+    }
+    .emoji{
+        font-size: 25px;
+    }
+    
+    .about h4{
+        margin-bottom: 0;
+    }
+    .about img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    
+    .table-cov{
+        overflow-x: auto;
+    }
+}
